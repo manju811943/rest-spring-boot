@@ -1,4 +1,4 @@
-FROM openjdk:21-jdk
+FROM openjdk:21-slim
 COPY target/rest-spring-boot.jar  /usr/app/
 WORKDIR /usr/app/
 EXPOSE 8080
