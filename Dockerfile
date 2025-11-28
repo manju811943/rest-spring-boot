@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk
+FROM openjdk:21-jdk-slim
 COPY target/rest-spring-boot.jar  /usr/app/
 WORKDIR /usr/app/
 EXPOSE 8080
